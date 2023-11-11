@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.sky img{
+    width: 160px;}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; background-color: dodgerblue;
+    height: 100px;
+    
+}
+.nav ul li{
+    display: inline;
+    padding: 0 10px;
+    font-size: px;
+    }
+.nav ul li:hover{
+    display: inline;
+    padding: 0 10px;
+   
+    color: rgb(157, 134, 134);
+    }
+
+
+
+.regis ul li{
+    display: inline-block;
+    padding: 0 9px;
+}
+.aa{
+    background-color: aqua;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav ul a{
+color: white;
+font-size: 16px;
+
+}
+.nw{
+    background-color: rgb(203, 37, 37);
+    border-radius: 3px;
+}
+
+.nav ul a:hover{
+    color: lightgreen;
+    transition: 0.9s;
+    
+    
+    }
+
+
+   
+
+.ul a{
+    color: white;
+  
+   
+}
+
+
+
+.ul,.li,.aa{
+    color:rgb(113, 27, 27);
+    padding: 3px 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+   
+}
+.ul,.li,.aa:hover{
+    color: lightgreen;
+    padding: 3px 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    transition: 0.9s;
+   
+}
+
+
+.ul,.li,.bb{
+    background-color:rgb(4, 24, 56);
+   
+    padding: 5px 15px;
+    border-radius: 3px;}
+
+.ul,.li,.bb:hover{
+    color: lightgreen;
+    transition: 0.9s;
+   
+
+
+}
+.ul,.li,.bb{
+    color: rgb(157, 134, 134);
+    font-size: 16px;
+}
+
+
+
+
+.mainpage{
+    margin: 5vh auto;
+    text-align: center;
+    background-color:rgb(30, 25, 25);
+   margin-top: -0.1%;
+   padding-top: 5%;
+   color: #fff;
+
+}
+.mainpage h1{
+    padding: 2%;
+    font-size: 3rem;
+
+}
+.drop{
+    width: 50%;
+    padding: 7% 0;
+}
+.mainpage p{
+    padding: 0 0 2% 0;
+}
+.adamu{
+    padding-top: 2%;
+    
+}
+.adamu a{
+    text-decoration: none; background-color:rgb(57, 132, 255); padding: 25px 35px;
+    border-radius: 2px; font-family: "Roboto", sans-serif;font-size: 20px;
+    color: black;
+    
+}
+.mainpage h2{
+font-size: 2.5rem;
+}
+.article{
+display: flex;
+justify-content: space-around;
+padding: 5% 0;
+background-color:rgb(30, 25, 25);
+margin-top: -2.5%;
+color: white;
+}
+.article i {
+font-size: 30px;
+padding-bottom: 15%;
+color: lemonchiffon;
+}
+.we{
+padding: 10% 0;
+font-size: 1.2em;
+}
+.pay{
+padding: 10% 0;
+font-size: 1.2em;
+}
+.you{
+padding: 10% 0;
+font-size: 1.2em;
+}
+.well{
+padding: 10% 0;
+font-size: 1.2em;
+}
+.p1,.p2,.p3,.p4{
+line-height: 25px;
+}
+.papa-mama{
+display: flex;
+justify-content: space-around;
+background-color: rgb(30, 25, 25);
+
+}
+.papa{
+padding-left: 2%;
+}
+.mama{
+padding-right: 1%;
+}
+.work, .personal{
+padding-top: 10%;
+padding-left: 7%;
+width: 97%;
+background-color: rgb(43, 41, 41);
+
+margin-top: -1%;
+height: 45vh;
+}
+.work h3{
+margin-bottom: 5%;}
+
+.personal h3{
+margin-bottom: 5%;
+
+}
+.work p{
+padding: 4% 0;
+line-height: 25px;}
+
+.personal p{
+padding: 4% 0;
+line-height: 25px;
+}
+.tozo{
+padding: 5%;
+}
+
+.tozo a{
+color:black;
+background-color:rgb(57, 132, 255);
+padding: 12px 25px;
+}
+.pem a{
+color:black;
+background-color:rgb(57, 132, 255);
+padding: 12px 25px;
+}
+.hh{
+text-align: center;
+padding: 5% 0;
+background-color:rgb(30, 25, 25);
+}
+.dab{
+display: flex;
+justify-content: space-around;
+margin: 7% auto;
+background-color: rgb(30, 25, 25);
+padding: 3% 0;
+margin-top: -5%;
+}
+.dab h2{
+font-size: 3rem;
+color: #fff;
+}
+.dab a{
+background-color: rgb(57, 132, 255);
+padding: 20px 35px;
+color: black;
+}
+.dab i{
+margin-left: 5px;
+color: black;
+}
+
+
+.lastdiv{
+display: flex;
+justify-content: space-around;
+background-color:black;
+color: white;
+margin-top: -7%;
+padding-top: 7%;
+}
+.div1 h3{
+padding-bottom: 15%;
+}
+.div1 p{
+padding: 4% 0;
+}
+.div1 p:hover{text-decoration: underline;
+cursor: pointer;
+transition: 1.9s;}
+
+.iconic a{
+padding: 0 3%;
+color: rgb(31, 30, 18);
+font-size: 30px;
+color: white;
+
+
+}
+
+
+.iconic{
+
+padding-top: 7%;
+background-color: black;
+color: white;
+}
+.line {
+padding: 4% 0;
+width: 25%;
+padding-left: 3%;
+}
+.kkk a:hover{
+text-decoration: underline;
+color: white;
+}
+.adamu i{
+margin-left: 1%;
+}
+.adamu i:hover{
+transform: translateX(10px);
+transition: 0.9s;
+
+}
+.spp i:hover{
+transform: translateX(10px);
+transition: 0.9s;
+
+}
+.spp i{
+margin-left: 1%;
+}
+.ref i{
+margin-left: 10px;
+}
+.ref i:hover{
+transform: translateX(10px);
+transition: 0.9s;
+}
+#check{
+display: none;
+}
+.icon{
+display: none;
+}
+.menu-bar i{
+font-size: 25px; float: right; display: none;
+}
+
+
+
+
+
+@media (max-width:1060px) {
+    .container{
+        background-color: darkblue;
+    }
+    .nav ul li{
+        display: inline;
+        padding: 0 6px;
+       
+    
+}
+.ul,.li,.aa{
+    background-color:rgb(57, 132, 255);
+    padding: 2px 12px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 14px;
+   
+}
+.ul,.li,.bb{
+    background-color:rgb(4, 24, 56);
+    color:rgb(113, 27, 27);
+    padding: 3px 8px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.dab{
+    margin-top: -1%;
+}
+.ref{
+    padding-top: 1%;
+}
+
+.work,.personal{
+    height: 150vh;
+}
+
+}
+
+
+@media (max-width:969px) {
+    .container{
+        background-color: darkgray;
+    }
+
+    .nav ul li{
+        
+        padding: 0 5px;
+       
+    
+}
+
+
+.nav ul a{
+    font-size: 12px;
+}
+
+
+
+}
+
+
+
+@media (max-width:844px) {
+    .container{
+        background-color: darkolivegreen;
+    }
+    .dab{
+        margin-top: -1%;
+    }
+    .dab a{
+      line-height: 50%;
+    }
+    
+    .work,.personal{
+        height: 138vh;
+    }
+
+    .nav ul li{
+        
+        padding: 0 4px;
+        font-size: 12px;
+    
+}
+
+}
+@media (max-width:816px) {
+    .container{
+
+    }
+
+    .ul,.li,.aa{
+        background-color:rgb(57, 132, 255);
+        padding: 2px 8px;
+        border: 1px solid white;
+        border-radius: 2px;
+        font-size: 12px;
+       
+    }
+    .ul,.li,.bb{
+        background-color:rgb(4, 24, 56);
+        color:rgb(113, 27, 27);
+        padding: 2px 5px;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+
+    
+}
+
+
+@media (max-width:795px) {
+    .container{
+        background-color: darkkhaki;
+    }
+
+    .nav ul li{
+      
+        padding: 0 3px;
+        font-size: 12px;
+    
+}
+.adamu a{
+    text-decoration: none; background-color:rgb(57, 132, 255); padding: 15px 25px;
+    border-radius: 2px; font-family: "Roboto", sans-serif;font-size: 16px;
+    color: black;}
+
+.ul,.li,.aa{
+    background-color:rgb(57, 132, 255);
+    padding: 1px 8px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 12px;
+   
+}
+.ul,.li,.bb{
+    background-color:rgb(4, 24, 56);
+    color:rgb(113, 27, 27);
+    padding: 2px 5px;
+    border-radius: 1px;
+    font-size: 12px;
+}
+.dab h1{
+    font-size: 0.8rem;
+}
+
+.dab a{
+    background-color: rgb(57, 132, 255);
+    padding: 10px 25px;
+    color: black;
+    font-size: 14px;
+    }
+    .ref{
+        margin-top: 2%;
+    }
+    
+
+
+
+
+
+
+}
+
+
+@media (max-width:769px) {
+    .container{
+
+    }
+    
+    .nav ul li{
+        
+        padding: 0 2px;
+        font-size: 10px;
+    
+}
+
+.ul,.li,.aa{
+    background-color:rgb(57, 132, 255);
+    padding: 1px 3px;
+    border: 1px solid white;
+    border-radius: 1px;
+    font-size: 10px;
+   
+}
+.ul,.li,.bb{
+    background-color:rgb(4, 24, 56);
+    color:rgb(113, 27, 27);
+    padding: 1px 3px;
+    border-radius: 1px;
+    font-size: 10px;
+}
+.dab h2{
+    font-size: 2rem;
+    color: #fff;
+    }
+    .dab a{
+    background-color: rgb(57, 132, 255);
+    padding: 10px 20px;
+    color: black;
+    }
+    .dab i{
+    margin-left: 2px;
+    color: black;
+    } 
+
+    .dab{
+        
+        padding-top: 8% ;
+        height: 60vh;
+    }
+    .article i {
+        font-size: 22px;
+        padding-bottom: 15%;
+        color: lemonchiffon;
+        }
+        .we{
+        padding: 8% 0;
+        font-size: 1em;
+        }
+        .pay{
+        padding: 8% 0;
+        font-size: 1em;
+        }
+        .you{
+        padding: 8% 0;
+        font-size: 1em;
+        }
+        .well{
+        padding: 8% 0;
+        font-size: 1em;
+        }
+        .p1,.p2,.p3,.p4{
+            line-height: 22px;
+        font-size: 12px;}
+
+
+        .adamu a{
+            text-decoration: none; background-color:rgb(57, 132, 255); padding: 10px 22px;
+            border-radius: 1px; font-family: "Roboto", sans-serif;font-size: 15px;
+            color: black;
+
+}
+
+
+.mainpage h1{
+    padding: 2%;
+    font-size: 2rem;
+}
+
+.mainpage p{
+    padding: 2% 0;
+    font-size: 1em;
+    color: gold;
+}
+
+.div1 h3{
+    padding-bottom: 15%;
+    font-size: 16px;
+    }
+    .div1 p{
+    padding: 4% 0;
+    font-size: 13px;
+    }
+
+    .iconic i{
+
+        padding-top: 7%;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding-right: 7%;
+        
+        }
+        .line {
+        padding: 4% 0;
+        width: 70%;
+        padding-left: 25%;
+        margin-top: 5%;
+        }
+        .iconic{
+            text-align: center;
+        }
+.usa{
+    font-size: 26px;
+}
+
+
+
+
+}
+
+@media (max-width:719px) {
+    .container{background-color: darkgoldenrod;
+
+    }
+    .sky img{
+        width: 140px;
+
+    }
+
+    .nav ul li{
+      
+        padding: 0 2px;
+        font-size: 10px;
+    
+
+
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width:360px) and (max-width:699px){
+    .container{
+        background-color:darkgrey; flex-direction: column; height: 140px;position: relative;
+    }
+    .sky img{
+        width: 140px;}
+
+        .nav ul li{
+            display: block;
+        }
+
+        .nav ul{
+            background-color: rgb(206, 198, 214);
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            top: 100%;
+            right: 2%;
+            border: 2px solid whitesmoke;
+            border-radius: 3px;
+            text-align: center;
+            padding: 7px 0;
+            
+        }
+        .nav li{
+            margin-bottom: 2em;
+            width: 200px;
+            
+            
+        }
+        .nav a{
+            font-size: 1rem;
+            
+            
+
+        }
+        .icon{
+            display: inline-block;
+            padding-right: 18%;
+        }
+
+       
+        #check{
+            display: block;
+        }
+        #check{
+            display: none;
+        }
+
+        .menu-bar i{
+            display: inline-block;color: rgb(139, 99, 99); position: absolute; bottom: 0%; right: 2%; font-size: 28px; cursor: crosshair; 
+        }
+        #check:checked ~ ul{
+            right: 100%;
+            transition: 1.9s;}
+
+
+            .icon{
+                display: inline-block; font-size: 20px;
+                color: rgb(201, 25, 25);
+        }
+    
+           
+    
+              
+                .mainpage h1{
+                    padding: 2%;
+                    font-size: 1.5rem;
+                }
+                
+                .mainpage p{
+                    padding: 0 0 2% 0;
+                    font-size: 0.8em;
+                    color: gold;
+                }
+                .mainpage h2{
+                    font-size: 1.5em;
+                }
+    
+                .article{
+                    display: block;
+                    text-align: center;
+                    margin-top: -8%;
+                    
+                }
+                .article i {
+                    font-size: 30px;
+                    padding: 5% 0;
+                    color: lemonchiffon;
+                   
+                    }
+                .p1,.p2,.p3,.p4 {
+                    font-size: 1rem;
+                    
+                   
+                    }
+                    .we,.pay,.you,.well{
+                        font-size: 1.5rem;
+                    }
+                    
+                    .papa-mama{
+                        flex-direction: column;
+                    }
+                    .mama{
+                        margin-top: 2%;
+                        padding-left: 3%;
+                    }
+                    .dab{
+                       flex-direction: column;
+                    }
+                    .dab h2{
+                        font-size: 1.2rem;
+                        color: #fff;
+                        text-align: center;
+                        }
+                        .dab a{
+                        background-color: rgb(57, 132, 255);
+                        padding: 10px 20px;
+                        color: black;
+                      
+                        }
+                        .dab i{
+                        margin-left: 2px;
+                        color: black;
+                        }
+                        .ref{
+                            text-align: center;
+                        }
+    
+                        .lastdiv{
+                            flex-direction: column;
+                            text-align: center;
+                           
+                        }
+
+                        .ul,.li,.aa{
+                            background-color:rgb(57, 132, 255);
+                            padding: 4px 15px;
+                            border: 2px solid white;
+                            border-radius: 3px;
+                            font-size: 16px;
+                            color: #fff;
+                           
+                        }
+                        .ul,.li,.bb{
+                            background-color:rgb(4, 24, 56);
+                            color:white;
+                            padding: 5px 15px;
+                            border-radius: 3px;
+                            font-size: 16px;}
+
+
+                           
+                            .div1 h3{
+                                padding: 5%;
+                                font-size: 16px;
+                                }
+                                .div1 p{
+                                padding: 2% 0;
+                                font-size: 15px;
+                                }
+
+                                .nav ul a:hover{
+                                    color: lightgreen;
+                                    transition: 0.9s;
+                                    
+                                    
+                                    }
+                                    .adamu{
+                                        margin: 10% 0;
+                                    }
+
+
+
+
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+                

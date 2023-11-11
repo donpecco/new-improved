@@ -1,0 +1,326 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    
+}
+.container-form{ width: 60%;
+    background-color: lightgrey;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+input[type=text]{
+    width:50%; padding: 10px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-indent: 30px;
+}
+input[type=text]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+   
+   
+}
+
+input[type=text]:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 1.9s;
+}
+::placeholder{
+    font-size: 1em;
+    font-weight: 500;
+    color:lightgrey;
+    font-family: "Roboto";
+    text-indent: 30px;
+}
+.user{
+    position: absolute;
+    top:18%;
+    left: 25%;
+    font-size: 22px;
+}
+.form-user{
+    position: relative;
+}
+
+
+
+
+input[type=email]{
+    width:50%; padding: 10px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-indent: 30px;
+    border: none;
+    outline: none;
+}
+
+    ::placeholder{
+        font-size: 1em;
+        font-weight: 500;
+        color:lightgrey;
+        font-family: "Roboto";
+        text-indent: 25px;
+      
+    }
+    input[type=email]:focus{
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+   background-color: cadetblue; 
+transition: 1.9s;}
+
+        .form-class{
+            position: relative;
+            margin-top: 25px;
+        }
+        .form-email{
+            position: absolute;
+            left: 25%;
+            top: 25%;
+            font-size: 22px;
+        }
+
+
+
+        input[type= tel]{
+            width:50%; padding: 10px;
+            border-radius: 15px;
+            border: none;
+           
+        margin-top: 20px; text-indent: 30px;
+        outline: none;
+    }
+    input[type=tel]:focus{
+        border: 1px solid lightblue;
+    }
+
+
+            input[type=email]:focus{
+                border-radius: 15px;
+                border: 1px solid lightblue;
+                    outline: none;
+               }
+
+         input[type= password]{
+         width:50%; padding: 10px;
+        border-radius: 15px;
+        border: none;
+       
+        margin-top: 20px;
+        text-indent: 30px;
+    outline: none;}
+    
+    input[type= password]:focus{
+      border: transparent; 
+      border: 1px solid cyan; 
+      transition: 1.9s;
+    }
+        
+    input[type= password]:hover{
+      border: transparent; 
+      border: 1px solid cyan; 
+      background-color: lightseagreen;
+      transition: 2.9s;
+    }
+        
+        .reg{
+            padding:1% 24%; border-radius: 55px;
+            border: none;
+            background-color: lightgreen;
+            color: whitesmoke;
+            font-size: 17px;
+            transition: 1.8s;}
+
+            .reg:hover{
+                background-color: rgb(9, 10, 9);
+
+            }
+        .register{
+            padding: 30px 30px; 
+        }
+        .form-class{
+            text-decoration: none;
+        }
+        .divider{
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .divider::before,.divider::after{
+            content: "";
+            padding: 1px;
+            background-color: white;
+            flex: 1;
+            margin: 10px 2px;
+        }
+        .op{
+            background-color: whitesmoke;
+            padding: 15px 15px; border-radius: 50%;
+        }
+        .form-class a{
+            text-decoration: none; padding: 0px 20px;
+        }
+        .socia{
+            background-color:  RGB(24,119,242);
+           margin: 10px;}
+
+           .form-class a{
+            padding: 15px;
+           }
+
+       
+    .socia:nth-child(2){
+        background-color:rgba(0, 0, 0, 100);
+        padding: 5px 12px;
+        border-radius: 15px;
+        color: white;
+        transition: 1.9s;
+    }
+    .socia:nth-child(1){
+        background-color: RGB(24,119,242);
+        border-radius: 15px;
+        color: white; padding: 5px 10px;
+        transition: 1.9s;
+    }
+      
+    .socia:nth-child(3){
+        background-color: RGB(234, 67, 53);
+        border-radius: 15px;
+        color: white; padding: 5px 12px;
+        transition: 1.8s;
+    }
+
+    .socia,.fa-facebook{
+        margin: 5px;
+    }
+    .socia,.fa-google{
+        margin: 7px;
+    }
+    .socia:nth-child(3):hover{
+        background-color: lightblue;
+
+    }
+   
+    .socia:nth-child(1):hover{
+        background-color: lightgrey;
+
+    }
+   
+    .socia:nth-child(2):hover{
+        background-color: lightgreen;
+
+    }
+    .hh{
+        font-size: 2em;
+        font-family: "Roboto";
+        padding-top: 1em;
+    
+    }
+    .para{
+        padding: 1em 0;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+   
+      .phone{
+        position: relative;
+      }
+      .tanana{
+        position: absolute;
+        left: 25%;
+        top: 45%;
+        font-size: 22px
+    }
+    .container-form{
+        position: relative;
+    }
+    .home{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        color: black;
+    }
+    .home:hover{
+        
+        color: rgb(220, 57, 57);
+        transition: 0.9s;
+    }
+
+      
+    
+  @media screen and (max-width:710px ){
+
+        .container-form{
+        position: relative; background-color: cadetblue;
+    }
+    .home{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+  }
+
+
+  @media (min-width:360px) and (max-width:687px) {
+    .socia{
+        display: block;
+        margin-bottom: 30%;
+    }
+
+
+    .container-form{
+        position: relative; background-color:rgb(207, 220, 207)
+    }
+    .home{
+        position: absolute;
+        top: 0%;
+        left: 40%;
+        color: darkgray;
+        padding: 5% 0;
+    }
+    .form-class a{
+        padding: 5px;
+       }
+       .container-form h1{
+        font-size: 20px;
+        margin-top: 40px;
+       }
+        .socia:nth-child(3){
+            background-color: RGB(234, 67, 53);
+            border-radius: 15px;
+            color: white;
+             padding: 1px 2px;
+            transition: 1.8s;
+            margin: 15% 2%; 
+        }
+
+        .socia:nth-child(2){
+            background-color:rgba(0, 0, 0, 100);
+            padding: 5px 5px;
+            border-radius: 15px;
+            color: white;
+            transition: 1.9s;
+           
+            margin: 15% 2%; 
+        }
+        .hh{
+            padding-top: 25% ;
+        }
+
+
+        .socia:nth-child(1){
+            background-color: RGB(24,119,242);
+            border-radius: 15px;
+            color: white; padding: 5px 5px;
+            transition: 1.9s;
+            margin: 15% 2%; 
+        }
+
+
+
+  }

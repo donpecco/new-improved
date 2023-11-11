@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main{
+    background-color: lightgray; position: relative;
+}
+.heads{
+    display: flex; justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    background-color: darkgray;
+    align-items: center;
+    border: 1px solid lightgrey;
+}
+.aim{
+    display: flex; gap: 20px;
+}
+.globe{
+    padding-right: 2%; font-size: 25px;
+    color:#f5811e
+}
+.heads h2{
+    padding-top: 2px;
+    color:#f5811e
+}
+
+
+.big-div{
+    margin: 10vh auto;
+    text-align: center;
+    background-image: url(./tomi.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 5% 0;
+    border-radius: 10px;
+    position: relative;
+    width: 60%;
+}
+
+
+    .abuja{
+        display: grid;
+        grid-template-columns: 1fr 25px 1fr;
+        
+        align-items: center;
+        
+       padding-top: 10px;
+    }
+    .yet{
+        margin-left: 58%;
+        border: 1px solid gray;
+    }
+    .wet{
+        margin-right: 58%;
+       border: 1px solid gray;
+    }
+    .big-div h2{
+        padding: 20px 0; font-size: large;
+        font-family: "Roboto";
+      
+    }
+
+    .google{
+        padding: 20px 0;
+        position: relative;
+        
+    }
+  
+   
+   input[type="text"]{
+    width: 45%;
+    padding: 10px;
+    text-indent: 12%;
+    background-color:rgb(237, 240, 243);
+    border: none;
+    
+    border-radius: 5px;
+   }
+   .apple{
+    padding: 20px 0;
+    position: relative;
+   }
+    input[type="email"]{
+        width: 45%;
+        padding: 10px;
+
+    }
+
+    .email{
+        padding: 15px 0;
+        padding-bottom: 40px;
+        position: relative;
+
+    }
+    .subb{
+       
+      
+       border: none;
+       
+       color: whitesmoke;
+       font-family: "Roboto", sans-serif;
+       font-size: 1rem;
+      }
+      .aim img{
+        padding-left: 3%;
+      }
+      .abuja h4{
+        color:lightgrey
+      }
+    
+      
+
+
+
+
+      input[type=submit]{
+        background-color: rgb(15, 94, 174);
+        width: 45%;
+        padding: 10px 20px;
+        border: none;
+        
+
+      }
+       
+    
+    ::placeholder{
+        text-indent: 25%;
+        font-family: "Roboto", sans-serif;
+       font-size: 1rem;
+    }
+    .aa{
+        position: absolute;
+        left: 29%;
+        top: 33%;
+        font-size: 25px;
+    }
+    .gg{
+        position: absolute;
+        left: 29%;
+        top: 35%;
+        font-size: 20px;
+        color:darkgray;
+    }
+    .lab{
+        padding-right: 22%;
+        margin-top: 15px;
+        padding-top: -20px;
+        position: absolute;
+        left: 27.5%;
+        bottom: 70%;
+        color:lightgrey
+    }
+ 
+    .apple input[type="text"]:hover{
+        background-color:lightsteelblue;
+        transition: all 1.9s;
+        outline: none;
+        border: 1px solid lightgrey;}
+
+    .apple input[type="text"]:focus{
+        background-color:lightsteelblue;
+        transition: all 1.9s;
+        outline: none;
+        border: 1px solid lightgrey;
+
+
+    }
+    .google input[type="text"]{
+       
+        border: 1px solid lightskyblue;
+        outline: none;
+
+    }
+    input[type="email"]{
+      border: 1px solid rgb(245, 241, 241)
+
+    }
+    input[type="email"]:hover{
+        border: 1px solid rgb(46, 43, 43);
+    }
+
+    .email input[type="email"]:focus{
+        border: 2px solid blue;
+        outline: black;
+        }
+
+    .form{
+        width: 80%;
+      
+        margin: 0 auto;
+    }
+    .tom{
+        position: absolute;
+        left: 27.5%;
+        top: 5%;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+       word-spacing: 2px;
+       color:lightgrey
+    }
+  
+    
+    
+
+
+   #email::placeholder {
+        color: rgb(243, 238, 234);
+    }
+
+
+
+
+   
+
+
+    @media screen and (max-width:879px) {
+   .heads{
+    background-color: darkgray;
+   }
+
+   
+.big-div{
+    margin: 20vh auto;
+    text-align: center;
+    background-image: url(./berk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: cover;
+    height: 450px;
+    padding: 5% 0;
+    border-radius: 10px;
+    position: relative;
+    width: 60%;
+}
+.tom{
+  font-family: "Roboto", sans-serif;
+    font-size: 18px;
+   word-spacing: 1px;
+   color:lightgrey
+}
+/* #google input[type="text"]{
+    width: 45%;
+    padding: 10px;
+    text-indent: 12%;
+    background-color:rgb(237, 240, 243);
+    border: none;
+    font-size: 12px;
+    
+    border-radius: 5px;
+   } */
+
+   ::placeholder{
+    text-indent: 15%;
+    font-family: "Roboto", sans-serif;
+   font-size: 0.9rem;}
+
+   input[type="email"]{
+    width: 45%;
+    padding: 10px;}
+
+
+
+}
+
+
+@media (max-width: 675px) {
+    .big-div{
+        background-image: url(./bkk.jpg);
+        height: 400px;
+    }
+    input[type="text"]{
+        width: 45%;
+        padding: 10px;
+        text-indent: 12%;
+        background-color:rgb(237, 240, 243);
+        border: none;
+        
+        border-radius: 5px;
+       }
+
+     ::placeholder{
+        text-indent: 15%;
+        font-family: "Roboto", sans-serif;
+       font-size: 0.8rem;}
+    
+       .tom{
+        font-family: "Roboto", sans-serif;
+          font-size: 16px;
+         word-spacing: 0.5px;}
+
+         .abuja h4{
+            font-size: 14px;
+        }
+
+
+        
+}
+
+@media (min-width:360px) and (max-width:615px) {
+    .big-div{
+        background-image: url(./bk.jpg);
+        height: 400px;
+    }
+
+    .google input[type="text"]{
+       
+        border: 1px solid lightgray;
+        outline: none;
+        margin-top: 20px;
+    position: relative;}
+
+        input[type="text"]{
+            font-size: 10px;
+        }
+
+        .gg{
+            position: absolute;
+            left: 28%;
+            top: 56%;
+            font-size: 10px;
+            color:darkgray;
+            z-index: 100;
+        }
+
+        ::placeholder{
+            text-indent: 6%;
+            font-family: "Roboto", sans-serif;
+           font-size: 0.5rem;
+        color: chocolate;
+    font-style: oblique;}
+
+        .apple input[type="text"]{
+       
+            border: 1px solid lightgray;
+            outline: none;
+            position: relative;}
+
+            .aa{
+                position: absolute;
+                left: 28%;
+                top: 42%;
+                font-size: 13px;
+                color:darkgray;
+                z-index: 100;
+            }
+
+            .tom{
+                font-family: "Roboto", sans-serif;
+                  font-size: 0.4em;
+                 position: absolute;
+                 top: 7%;
+                 font-style: italic;}
+
+                .form{
+                    padding: 40px 0;
+                }
+                input[type=submit]{
+                    background-color: rgb(15, 94, 174);
+                    width: 45%;
+                    padding: 5px 10px;
+                    border: none;
+                    font-size: 0.8em;
+                    border-radius: 2px;
+                    color: whitesmoke
+                  }
+                  input[type="email"]{
+                    width: 45%;
+                    padding: 5px;
+                    border-radius: 2px;}
+
+                    .abuja h4{
+                        font-size: 12px;
+                    }
+
+                    .lab{
+                        font-size: 12px;
+                        color: darkgray
+                    }
+                    
+                   
+
+
+    
+}
